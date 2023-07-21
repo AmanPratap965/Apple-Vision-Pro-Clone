@@ -35,9 +35,15 @@ html,body{
    z-index: 2;
 }
 #page>nav>button{
-    padding: 7px 20px;
+    padding: 70px 20px;
     border-radius: 50px;
     border: none;
+}
+#page>nav>button:hover{
+    font-size: 20px ;
+    color: aqua;
+    font-weight:500;
+    background-color: grey;
 }
 #page>video{
     position: absolute;
